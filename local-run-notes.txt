@@ -2,3 +2,25 @@
 base path for project in local: /project/think-tester
 run via cli: jmeter -n -t "/project/think-tester/thinking-tester.jmx" -l "/project/think-tester/think-tester/results/AddNewUserResults.jtl"
 generate report: jmeter -g "/project/think-tester/think-tester/results/AddNewUserResults.jtl" -o "/project/think-tester/output-report-folder/"
+
+✅ Step-by-Step: Use Faker in JMeter
+1. Download java-faker JAR
+	•	Go to: https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+	•	Download the latest .jar file (e.g., javafaker-1.0.2.jar)
+
+2. Add the JAR to JMeter
+	•	Put the .jar file in:
+➤ JMETER_HOME/lib/ext/
+	•	Restart JMeter if it was open.
+
+✅ Add snakeyaml JAR Manually
+1. Download snakeyaml JAR
+Go to:
+👉 https://mvnrepository.com/artifact/org.yaml/snakeyaml
+Download a compatible version — e.g., snakeyaml-1.33.jar
+
+2. Put the JAR in JMeter
+Copy the downloaded snakeyaml-*.jar file to:
+<JMeter_Home>/lib/
+⚠️ Do not put it in lib/ext (only for plugins or samplers).
+3. Restart JMeter
