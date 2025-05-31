@@ -1,7 +1,8 @@
 *this path under bin folder
 base path for project in local: /project/think-tester
-run via cli: jmeter -n -t "/project/think-tester/thinking-tester.jmx" -l "/project/think-tester/think-tester/results/AddNewUserResults.jtl"
-generate report: jmeter -g "/project/think-tester/think-tester/results/AddNewUserResults.jtl" -o "/project/think-tester/output-report-folder/"
+*prerequisite: terminal already in bin folder
+run via cli: sh jmeter -n -t "project/think-tester/thinking-tester.jmx" -l "project/think-tester/results/AddNewUserResults.jtl"
+generate report: jmeter -g "project/think-tester/results/AddNewUserResults.jtl" -o "project/think-tester/output-report-folder/"
 
 ✅ Step-by-Step: Use Faker in JMeter
 1. Download java-faker JAR
