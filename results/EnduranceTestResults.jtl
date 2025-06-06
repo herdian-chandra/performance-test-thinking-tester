@@ -1,0 +1,125 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1749173138678,2450,POST Login User,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1267,312,1,1,https://thinking-tester-contact-list.herokuapp.com/users/login,2442,0,1104
+1749173141165,2919,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,128475,522,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2024,0,0
+1749173144101,733,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1099,948,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,733,0,0
+1749173144836,748,GET single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1112,547,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8ae168ac3b00156a69cb,748,0,0
+1749173145586,739,PUT single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1070,938,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8ae168ac3b00156a69cb,739,0,0
+1749173146327,736,Delete single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,752,941,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8ae168ac3b00156a69cb,736,0,0
+1749173141158,5875,Transaction Controller,200,"Number of samples in transaction : 5, number of failing samples : 0",Full CRUD Cycle-ThreadStarter 1-1,,true,,132508,3896,1,1,null,4980,32,0
+1749173150607,2941,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,128457,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2383,0,0
+1749173153552,768,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1102,774,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,768,0,0
+1749173154322,817,GET single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1124,382,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8b208fa9e800158d2a27,817,0,0
+1749173155142,816,PUT single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1074,773,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8b208fa9e800158d2a27,816,0,0
+1749173155960,733,Delete single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,756,776,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8b208fa9e800158d2a27,732,0,0
+1749173150607,6075,Transaction Controller,200,"Number of samples in transaction : 5, number of failing samples : 0",Full CRUD Cycle-ThreadStarter 1-1,,true,,132513,3062,1,1,null,5516,12,0
+1749173158104,2919,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,128450,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2053,0,0
+1749173161032,764,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1114,790,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,764,0,0
+1749173161799,815,GET single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1085,382,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/684243a231b3770015d461e7,815,0,0
+1749173162616,816,PUT single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1062,773,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/684243a231b3770015d461e7,816,0,0
+1749173163434,766,Delete single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,756,776,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243a231b3770015d461e7,765,0,0
+1749173158104,6080,Transaction Controller,200,"Number of samples in transaction : 5, number of failing samples : 0",Full CRUD Cycle-ThreadStarter 1-1,,true,,132467,3078,2,2,null,5213,16,0
+1749173164186,2110,POST Login User,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1279,312,1,1,https://thinking-tester-contact-list.herokuapp.com/users/login,2110,0,887
+1749173166299,2716,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,128454,522,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,1985,0,0
+1749173169020,732,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1113,958,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,731,0,0
+1749173169754,729,GET single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1108,547,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8b6a68ac3b00156a69df,729,0,0
+1749173170485,833,PUT single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1066,938,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8b6a68ac3b00156a69df,833,0,0
+1749173171319,731,Delete single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,752,941,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8b6a68ac3b00156a69df,731,0,0
+1749173166298,5741,Transaction Controller,200,"Number of samples in transaction : 5, number of failing samples : 0",Full CRUD Cycle-ThreadStarter 1-2,,true,,132493,3906,2,2,null,5009,12,0
+1749173169449,2871,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,128816,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2000,0,0
+1749173172324,738,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1099,779,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,738,0,0
+1749173173065,734,GET single /contact/:id,404,Not Found,Full CRUD Cycle-ThreadStarter 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",670,382,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8b6a68ac3b00156a69df,734,0,0
+1749173173803,733,PUT single /contact/:id,404,Not Found,Full CRUD Cycle-ThreadStarter 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",666,721,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8b6a68ac3b00156a69df,733,0,0
+1749173174537,776,Delete single /contact/:id,404,Not Found,Full CRUD Cycle-ThreadStarter 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",666,724,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f8b6a68ac3b00156a69df,776,0,0
+1749173169448,5852,Transaction Controller,,"Number of samples in transaction : 5, number of failing samples : 3",Full CRUD Cycle-ThreadStarter 1-1,,false,,131917,2963,2,2,null,4981,13,0
+1749173174170,2887,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,128802,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2373,0,0
+1749173177061,730,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1103,783,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,730,0,0
+1749173177793,733,GET single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1094,382,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243b51f8d84001507c44b,733,0,0
+1749173178528,734,PUT single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1062,773,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243b51f8d84001507c44b,734,0,0
+1749173179263,762,Delete single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,764,776,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243b51f8d84001507c44b,762,0,0
+1749173174169,5846,Transaction Controller,200,"Number of samples in transaction : 5, number of failing samples : 0",Full CRUD Cycle-ThreadStarter 1-2,,true,,132825,3071,2,2,null,5332,11,0
+1749173178489,2912,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,129462,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2354,0,0
+1749173181404,735,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1107,787,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,735,0,0
+1749173182141,730,GET single /contact/:id,404,Not Found,Full CRUD Cycle-ThreadStarter 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",666,382,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243b51f8d84001507c44b,730,0,0
+1749173182872,837,PUT single /contact/:id,404,Not Found,Full CRUD Cycle-ThreadStarter 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",670,721,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243b51f8d84001507c44b,837,0,0
+1749173183711,730,Delete single /contact/:id,404,Not Found,Full CRUD Cycle-ThreadStarter 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",670,724,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243b51f8d84001507c44b,730,0,0
+1749173178488,5944,Transaction Controller,,"Number of samples in transaction : 5, number of failing samples : 3",Full CRUD Cycle-ThreadStarter 1-1,,false,,132575,2971,2,2,null,5386,10,0
+1749173182498,2892,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,129158,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2339,0,0
+1749173185393,731,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1106,790,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,731,0,0
+1749173186126,729,GET single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1112,382,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f93258fa9e800158d2a40,728,0,0
+1749173186856,745,PUT single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1066,773,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f93258fa9e800158d2a40,744,0,0
+1749173187602,730,Delete single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,756,776,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f93258fa9e800158d2a40,729,0,0
+1749173182497,5827,Transaction Controller,200,"Number of samples in transaction : 5, number of failing samples : 0",Full CRUD Cycle-ThreadStarter 1-2,,true,,133198,3078,2,2,null,5271,9,0
+1749173186253,2783,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,129517,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2246,0,0
+1749173189038,735,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1107,779,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,735,0,0
+1749173189775,729,GET single /contact/:id,404,Not Found,Full CRUD Cycle-ThreadStarter 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",674,382,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f93258fa9e800158d2a40,729,0,0
+1749173190507,780,PUT single /contact/:id,404,Not Found,Full CRUD Cycle-ThreadStarter 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",666,721,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f93258fa9e800158d2a40,780,0,0
+1749173191288,817,Delete single /contact/:id,404,Not Found,Full CRUD Cycle-ThreadStarter 1-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",666,724,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/683f93258fa9e800158d2a40,817,0,0
+1749173186252,5844,Transaction Controller,,"Number of samples in transaction : 5, number of failing samples : 3",Full CRUD Cycle-ThreadStarter 1-1,,false,,132630,2963,2,2,null,5307,10,0
+1749173189797,2859,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,129499,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2308,0,0
+1749173192659,730,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1101,781,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,730,0,0
+1749173193390,729,GET single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1104,382,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243b11f8d84001507c44a,729,0,0
+1749173194122,735,PUT single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1066,773,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243b11f8d84001507c44a,735,0,0
+1749173194857,731,Delete single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,760,776,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243b11f8d84001507c44a,731,0,0
+1749173189796,5784,Transaction Controller,200,"Number of samples in transaction : 5, number of failing samples : 0",Full CRUD Cycle-ThreadStarter 1-2,,true,,133530,3069,2,2,null,5233,8,0
+1749173193171,2829,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,129841,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2006,0,0
+1749173196004,814,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1124,800,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,814,0,0
+1749173196820,734,GET single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1096,382,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243c931b3770015d461ec,733,0,0
+1749173197555,735,PUT single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,1066,773,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243c931b3770015d461ec,735,0,0
+1749173198291,733,Delete single /contact/:id,200,OK,Full CRUD Cycle-ThreadStarter 1-1,text,true,,760,776,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/684243c931b3770015d461ec,733,0,0
+1749173193170,5845,Transaction Controller,200,"Number of samples in transaction : 5, number of failing samples : 0",Full CRUD Cycle-ThreadStarter 1-1,,true,,133887,3088,2,2,null,5021,9,0
+1749173196389,2727,GET all /contact,200,OK,Full CRUD Cycle-ThreadStarter 1-2,text,true,,129856,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,2236,0,0
+1749173199118,769,POST create /contact,201,Created,Full CRUD Cycle-ThreadStarter 1-2,text,true,,1123,803,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,769,0,0
