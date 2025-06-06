@@ -10,7 +10,7 @@ The tests simulate two distinct performance scenarios:
 
 For full configuration and thread setup details, refer to the thinking-tester.jmx file.
 
-### Spike Testing
+### 1. Spike Testing
 
 - The primary objective of the spike test is to assess the robustness, scalability, and stability of the Add New User endpoint under extreme and sudden bursts of user traffic. This test simulates a real-world scenario where a large number of users attempt to register simultaneously or in rapid succession.
 
@@ -55,7 +55,7 @@ For full configuration and thread setup details, refer to the thinking-tester.jm
   - Test Execution Video:
     [video](https://drive.google.com/file/d/19yKuMddfEVDe83eAAhOSdBUPGZtfOaOS/view?usp=sharing)
 
-### Endurance Testing
+### 2. Endurance Testing
 
 - The primary goal of this test is to evaluate the functional integrity and performance stability of the public API at https://thinking-tester-contact-list.herokuapp.com when executing a complete Create, Read, Update, Delete (CRUD) cycle. This test mimics realistic user behavior by performing all major operations within a single user session.
 
